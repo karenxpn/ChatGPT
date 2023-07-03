@@ -14,6 +14,9 @@
 		FF6288F12A530324001ECA4F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = FF6288F02A530324001ECA4F /* .gitignore */; };
 		FF6288F32A5303F5001ECA4F /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6288F22A5303F5001ECA4F /* Credentials.swift */; };
 		FF6288F62A530487001ECA4F /* ChatGPTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FF6288F52A530487001ECA4F /* ChatGPTSwift */; };
+		FF6288F82A530A8C001ECA4F /* MessageOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6288F72A530A8C001ECA4F /* MessageOwner.swift */; };
+		FF6288FA2A530AB7001ECA4F /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6288F92A530AB7001ECA4F /* ChatMessage.swift */; };
+		FF6288FC2A530B0B001ECA4F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6288FB2A530B0B001ECA4F /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		FF6288E72A5302C7001ECA4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FF6288F02A530324001ECA4F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		FF6288F22A5303F5001ECA4F /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		FF6288F72A530A8C001ECA4F /* MessageOwner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageOwner.swift; sourceTree = "<group>"; };
+		FF6288F92A530AB7001ECA4F /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		FF6288FB2A530B0B001ECA4F /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,9 @@
 				FF6288E52A5302C7001ECA4F /* ChatGPT.entitlements */,
 				FF6288E62A5302C7001ECA4F /* Preview Content */,
 				FF6288F22A5303F5001ECA4F /* Credentials.swift */,
+				FF6288F72A530A8C001ECA4F /* MessageOwner.swift */,
+				FF6288F92A530AB7001ECA4F /* ChatMessage.swift */,
+				FF6288FB2A530B0B001ECA4F /* ViewModel.swift */,
 			);
 			path = ChatGPT;
 			sourceTree = "<group>";
@@ -155,7 +164,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF6288F32A5303F5001ECA4F /* Credentials.swift in Sources */,
+				FF6288F82A530A8C001ECA4F /* MessageOwner.swift in Sources */,
 				FF6288E22A5302C5001ECA4F /* ContentView.swift in Sources */,
+				FF6288FA2A530AB7001ECA4F /* ChatMessage.swift in Sources */,
+				FF6288FC2A530B0B001ECA4F /* ViewModel.swift in Sources */,
 				FF6288E02A5302C5001ECA4F /* ChatGPTApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
